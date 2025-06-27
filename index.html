@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vero Wallet App For Sale - Flutter Source Code</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.1/css/flag-icons.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-wallet"></i>
+                    <span>Vero Wallet</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#networks" class="nav-link">Networks</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#languages" class="nav-link">Languages</a></li>
+                    <li><a href="#admin" class="nav-link">Admin Panel</a></li>
+                    <li><a href="#purchase" class="nav-link highlight">Contact to Buy</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container compact-hero">
+            <div class="hero-content">
+                <div class="tech-stack" style="margin-bottom:0.7rem;">
+                    <span class="tech-label" style="font-size:0.95rem;padding:0.3rem 0.8rem;"> <i class="fab fa-flutter"></i> Flutter</span>
+                    <span class="tech-platform" style="font-size:0.95rem;padding:0.3rem 0.8rem;"> <i class="fab fa-android"></i> Android</span>
+                    <span class="tech-platform" style="font-size:0.95rem;padding:0.3rem 0.8rem;"> <i class="fab fa-apple"></i> iOS</span>
+                </div>
+                <h1 class="hero-title" style="font-size:2rem;line-height:1.1;margin-bottom:0.7rem;">Ready-made Crypto Wallet App <br> <span style="color:#10b981;font-size:1.2rem;">For Sale</span></h1>
+                <p class="hero-description" style="font-size:1rem;margin-bottom:1rem;line-height:1.5;">
+                    Secure, modern crypto wallet app. Full Flutter source code for your brand.<br>
+                    <strong style="font-size:1rem;">Buy once, launch on Android & iOS!</strong>
+                </p>
+                <div class="hero-buttons" style="margin-bottom:0.5rem;">
+                    <a href="#purchase" class="contact-btn" style="font-size:1rem;padding:0.6rem 1.5rem;">Contact to Buy <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="sale-note" style="margin-top:0.7rem;font-size:0.95rem;padding:0.5rem 0.8rem;max-width:320px;">* Source code sale for businesses only.</div>
+            </div>
+            <div class="hero-visual">
+                <img src="assets/home.png" alt="Vero Wallet App Screenshot" class="hero-app-image" style="max-width:160px;width:100%;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.13);margin:0;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Purchase Benefits Section -->
+    <section id="purchase" class="purchase-benefits">
+        <div class="container">
+            <h2 class="section-title">What You Get When You Buy</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-code"></i></div>
+                    <h3>Full Flutter Source Code</h3>
+                    <p>Clean, well-documented codebase built with Flutter for easy customization and branding.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Android & iOS Support</h3>
+                    <p>One codebase, two platforms. Publish your app on Google Play and Apple App Store.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-book"></i></div>
+                    <h3>Documentation</h3>
+                    <p>Step-by-step guide for setup, branding, and publishing your wallet app.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Support</h3>
+                    <p>Direct support for installation, configuration, and minor customizations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>Commercial License</h3>
+                    <p>Use the app for your business, startup, or client project with a commercial license.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Fast Launch</h3>
+                    <p>Save months of development. Get to market quickly with a proven, modern solution.</p>
+                </div>
+            </div>
+            <div class="contact-sale">
+                <a href="mailto:sales@yourdomain.com" class="contact-btn big">Request Price & Demo <i class="fas fa-envelope"></i></a>
+                <p class="contact-note">For serious buyers only. Customization and white-labeling available.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">App Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Advanced Security</h3>
+                    <p>Multi-layer encryption, biometric authentication, and cold storage options for maximum security.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Multi-Network Support</h3>
+                    <p>Support for Bitcoin, Ethereum, Binance Smart Chain, and 50+ other blockchain networks.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Token Management</h3>
+                    <p>Easily manage thousands of tokens with automatic detection and custom token addition.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Dark/Light Mode</h3>
+                    <p>Switch between dark and light themes for comfortable viewing in any environment.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Chatbot</h3>
+                    <p>Integrated chatbot powered by AI API for instant support, market info, and user guidance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Market Page</h3>
+                    <p>Market page with two sections: Top Gainers and Top Losers, for real-time tracking of trending coins.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Games</h3>
+                    <p>Play fun games and earn crypto rewards directly within the app.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-th-large"></i>
+                    </div>
+                    <h3>Dapps Browser</h3>
+                    <p>Connect with decentralized platforms (Dapps) to buy, sell, and interact with DeFi services securely.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Instant Trading</h3>
+                    <p>Built-in DEX integration for instant token swaps with competitive rates and low fees.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Portfolio Analytics</h3>
+                    <p>Real-time portfolio tracking with detailed analytics and performance insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Networks Section -->
+    <section id="networks" class="networks">
+        <div class="container">
+            <h2 class="section-title">Supported Networks</h2>
+            <div class="networks-table-container">
+                <table class="networks-table">
+                    <thead>
+                        <tr>
+                            <th>Network</th>
+                            <th>Native Token</th>
+                            <th>Token Support</th>
+                            <th>Status</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fab fa-bitcoin"></i> Bitcoin</td>
+                            <td>BTC</td>
+                            <td><i class="fas fa-check text-success"></i></td>
+                            <td><span class="status active">Active</span></td>
+                            <td>Full SegWit support</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-ethereum"></i> Ethereum</td>
+                            <td>ETH</td>
+                            <td><i class="fas fa-check text-success"></i></td>
+                            <td><span class="status active">Active</span></td>
+                            <td>ERC-20, ERC-721 support</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-coins"></i> Binance Smart Chain</td>
+                            <td>BNB</td>
+                            <td><i class="fas fa-check text-success"></i></td>
+                            <td><span class="status active">Active</span></td>
+                            <td>BEP-20 tokens</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-polygon"></i> Polygon</td>
+                            <td>MATIC</td>
+                            <td><i class="fas fa-check text-success"></i></td>
+                            <td><span class="status active">Active</span></td>
+                            <td>Layer 2 scaling</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-solana"></i> Solana</td>
+                            <td>SOL</td>
+                            <td><i class="fas fa-check text-success"></i></td>
+                            <td><span class="status active">Active</span></td>
+                            <td>SPL tokens</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-avalanche"></i> Avalanche</td>
+                            <td>AVAX</td>
+                            <td><i class="fas fa-check text-success"></i></td>
+                            <td><span class="status coming">Coming Soon</span></td>
+                            <td>Q2 2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery redesigned-gallery">
+        <div class="container">
+            <h2 class="section-title">App Screenshots & Demo</h2>
+            <div class="gallery-vertical">
+                <div class="gallery-demo">
+                    <div class="demo-video-container">
+                        <video controls poster="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=App+Demo">
+                            <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="demo-caption">Watch a quick demo of the app in action</div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-card"><img src="assets/tokeninfo.jpg" alt="Token Info"><span>Token Info</span></div>
+                    <div class="gallery-card"><img src="assets/welcom.jpg" alt="Welcome"><span>Welcome</span></div>
+                    <div class="gallery-card"><img src="assets/home.png" alt="Home Dark"><span>Home Dark</span></div>
+                    <div class="gallery-card"><img src="assets/homelite.jpg" alt="Home Light"><span>Home Light</span></div>
+                    <div class="gallery-card"><img src="assets/settings.jpg" alt="Settings"><span>Settings</span></div>
+                    <div class="gallery-card"><img src="assets/chatbot.jpg" alt="Chat Bot"><span>Chat Bot</span></div>
+                    <div class="gallery-card"><img src="assets/addtoken.jpg" alt="Add Token"><span>Add Token</span></div>
+                    <div class="gallery-card"><img src="assets/creatrpin.jpg" alt="Create Pin"><span>Create Pin</span></div>
+                    <div class="gallery-card"><img src="assets/dapps.jpg" alt="Dapps"><span>Dapps</span></div>
+                    <div class="gallery-card"><img src="assets/language.jpg" alt="Languages"><span>Languages Settings</span></div>
+                    <div class="gallery-card"><img src="assets/notification.jpg" alt="Notification"><span>Notification</span></div>
+                    <div class="gallery-card"><img src="assets/deposit.jpg" alt="Deposit"><span>Deposit</span></div>
+                    <div class="gallery-card"><img src="assets/withdraw.jpg" alt="Withdraw"><span>Withdraw light</span></div>
+                    <div class="gallery-card"><img src="assets/withdrawdark.jpg" alt="Withdraw"><span>Withdraw Dark</span></div>
+                    <div class="gallery-card"><img src="assets/withdrawex.jpg" alt="Withdraw"><span>Withdraw Exempel</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="languages">
+        <div class="container">
+            <h2 class="section-title">Supported Languages</h2>
+            <p class="languages-subtitle" style="text-align:center;color:#64748b;font-size:1.15rem;margin-bottom:2rem;max-width:600px;margin-left:auto;margin-right:auto;">
+                The app supports a wide range of languages to ensure a global user experience. Below are all the languages you can offer to your users out of the box:
+            </p>
+            <div class="languages-grid">
+                <div class="language-item">
+                    <span class="fi fi-us flag"></span>
+                    <span>English</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-es flag"></span>
+                    <span>Spanish</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-fr flag"></span>
+                    <span>French</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-de flag"></span>
+                    <span>German</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-it flag"></span>
+                    <span>Italian</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-pt flag"></span>
+                    <span>Portuguese</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-ru flag"></span>
+                    <span>Russian</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-cn flag"></span>
+                    <span>Chinese</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-jp flag"></span>
+                    <span>Japanese</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-kr flag"></span>
+                    <span>Korean</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-sa flag"></span>
+                    <span>Arabic</span>
+                </div>
+                <div class="language-item">
+                    <span class="fi fi-in flag"></span>
+                    <span>Hindi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Panel Section -->
+    <section id="admin" class="admin">
+        <div class="container">
+            <h2 class="section-title">Admin Dashboard</h2>
+            <div class="admin-content">
+                <div class="admin-info">
+                    <h3>Powerful Admin Dashboard<br><span style="font-size:1.1rem;color:#6366f1;">Built with React & Supabase</span></h3>
+                    <p>
+                        The admin dashboard is a modern web panel built using <strong>React</strong> and <strong>Supabase</strong> for real-time, secure management.<br>
+                        It allows you to:
+                    </p>
+                    <ul class="admin-features">
+                        <li><i class="fas fa-bell"></i> Add and send new notifications to users</li>
+                        <li><i class="fas fa-coins"></i> Add new tokens to the wallet</li>
+                        <li><i class="fas fa-user-plus"></i> Create new admin accounts</li>
+                        <li><i class="fas fa-gamepad"></i> Review and approve withdrawal requests from in-app games</li>
+                        <li><i class="fas fa-database"></i> Manage all app data securely and efficiently</li>
+                    </ul>
+                    <p style="margin-top:1.2rem;color:#64748b;font-size:1rem;">
+                        All actions are performed in real-time with a user-friendly interface, giving you full control over your platform.
+                    </p>
+                </div>
+                <div class="admin-visual" style="display: flex; flex-direction: column; gap: 1.5rem; align-items: center;">
+                    <img src="assets/dashboardLo.png" alt="Admin Dashboard" style="max-width:100%;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.08);">
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                        <img src="assets/dashbordNot.png" alt="Notifications Panel" style="max-width:100%;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+                        <img src="assets/dashbordGa.png" alt="Games Panel" style="max-width:100%;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer redesigned-footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <i class="fas fa-wallet"></i>
+                    <span>Vero Wallet</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#networks">Networks</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#languages">Languages</a>
+                    <a href="#admin">Admin</a>
+                    <a href="#purchase">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:sales@yourdomain.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Telegram"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2024 Vero Wallet. All rights reserved.</span>
+                <span class="footer-legal-links">
+                    <a href="#">Terms</a> · <a href="#">Privacy</a> · <a href="#">Cookies</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
